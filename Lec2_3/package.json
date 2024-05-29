@@ -2,13 +2,16 @@
   "name": "namaste-react-lec2",
   "version": "1.0.0",
   "description": "Following along a live course",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Aman-Sharma",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
