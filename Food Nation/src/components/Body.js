@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { restaurantlist } from "../config";
 import ResturantCard from "./RestaurantCard";
-import Shimmer from "./shimmer";
+import Shimmer from "./Shimmer";
 
 // What is state
 // What is Hooks? - hook is just a normal function
@@ -29,7 +28,7 @@ const Body = () => {
   // searchTxt is a local state variable
 
   const [searchTxt, setSearchTxt] = useState(""); // To create state variable
-  const [allRestaurant, setAllRestaurant] = useState(restaurantlist);
+  const [allRestaurant, setAllRestaurant] = useState([]);
   const [filterRestaurants, setFilterRestaurants] = useState([]);
 
   useEffect(() => {

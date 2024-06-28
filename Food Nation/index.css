@@ -47,3 +47,26 @@
     display: flex; 
     flex-wrap: wrap;
 }
+
+.shimmer-card{
+    width: 200px;
+    height: 300px;
+    background: lightgray;
+    margin: 20px;
+}
+
+.shimmer-search{
+    width: 230px;
+    height: 20px;
+    background: lightgray;
+    margin: 2px;
+}
+
+.restaurant-menu{
+    display: flex;
+}
+
+.menu-list{
+    font-size: 10px;
+    margin-left: 15%;
+}
